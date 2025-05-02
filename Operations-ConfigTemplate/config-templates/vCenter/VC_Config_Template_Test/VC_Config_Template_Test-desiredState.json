@@ -1,0 +1,58 @@
+{
+  "config" : {
+    "vnetworking" : {
+      "network_vds" : {
+        "portgroups" : [ {
+          "path" : "/MGMT-DC/network/DPortGroup-Test",
+          "config" : {
+            "binding_type" : "STATIC",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        }, {
+          "path" : "/MGMT-DC/network/MGMT-CL-DvSwitch-DVUplinks-30",
+          "config" : {
+            "binding_type" : "STATIC",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        }, {
+          "path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01-Management Network",
+          "config" : {
+            "binding_type" : "STATIC",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        }, {
+          "path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01-VM Network",
+          "config" : {
+            "binding_type" : "STATIC",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        }, {
+          "path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01-VM Network-ephemeral",
+          "config" : {
+            "binding_type" : "EPHEMERAL",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        }, {
+          "path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01-vMotion",
+          "config" : {
+            "binding_type" : "STATIC",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        }, {
+          "path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01-vSAN",
+          "config" : {
+            "binding_type" : "STATIC",
+            "network_resource_pool_name" : ""
+          },
+          "vds_path" : "/MGMT-DC/network/MGMT-CL-DvSwitch01"
+        } ]
+      }
+    }
+  }
+}

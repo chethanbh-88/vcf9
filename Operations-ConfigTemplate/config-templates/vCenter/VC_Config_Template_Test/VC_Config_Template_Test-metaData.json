@@ -1,0 +1,21 @@
+{
+  "selectedConfig" : {
+    "config" : {
+      "vnetworking" : {
+        "network_vds" : {
+          "portgroups" : [ {
+            "path" : "string",
+            "config" : {
+              "binding_type" : "STATIC",
+              "network_resource_pool_name" : "string"
+            },
+            "vds_path" : "string"
+          } ]
+        }
+      }
+    }
+  },
+  "description" : "",
+  "sourceResourceId" : "1ed6576d-5c7a-49f7-bf1d-56e3dfc8203c",
+  "configVersion" : "9.0.0.24678707"
+}

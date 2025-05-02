@@ -1,0 +1,7 @@
+{
+  "contentName": "VC_Config_Template_Test",
+  "id": "c9581879-5f90-44f3-8686-046ba5c57106",
+  "contentType": "Operations-ConfigTemplate",
+  "keyValues": {"location": "vCenter%2FVC_Config_Template_Test"},
+  "descendents": []
+}
