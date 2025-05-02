@@ -1,15 +1,23 @@
 {
   "selectedConfig" : {
     "config" : {
+      "vcenter" : {
+        "inventory" : {
+          "folders" : [ {
+            "path" : "string",
+            "type" : "DATACENTER"
+          } ]
+        }
+      },
       "vnetworking" : {
         "network_vds" : {
           "portgroups" : [ {
             "path" : "string",
+            "vds_path" : "string",
             "config" : {
               "binding_type" : "STATIC",
               "network_resource_pool_name" : "string"
-            },
-            "vds_path" : "string"
+            }
           } ]
         }
       }
