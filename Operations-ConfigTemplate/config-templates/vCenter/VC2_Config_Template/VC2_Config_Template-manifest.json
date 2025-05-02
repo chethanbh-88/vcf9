@@ -1,0 +1,7 @@
+{
+  "contentName": "VC2_Config_Template",
+  "id": "27c9f930-392b-4549-9d6e-1f2cfca56a4f",
+  "contentType": "Operations-ConfigTemplate",
+  "keyValues": {"location": "vCenter%2FVC2_Config_Template"},
+  "descendents": []
+}

@@ -1,0 +1,17 @@
+{
+  "selectedConfig" : {
+    "config" : {
+      "vcenter" : {
+        "inventory" : {
+          "folders" : [ {
+            "path" : "string",
+            "type" : "DATACENTER"
+          } ]
+        }
+      }
+    }
+  },
+  "description" : "",
+  "sourceResourceId" : "0a4f5156-480c-41b3-af66-9a5b803e452f",
+  "configVersion" : "9.0.0.24678707"
+}
